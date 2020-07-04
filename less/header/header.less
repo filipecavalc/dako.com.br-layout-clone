@@ -1,0 +1,34 @@
+header {
+  background-color: @primary-color;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: @bold;
+
+  & .header-content {
+    width: 100%;
+    max-width: 1280px;
+    padding: 19px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: @white;
+
+    @import url('components/logo.less');
+
+    @import url('components/search.less');
+
+    & a {
+      color: @white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @import url('components/login-register.less');
+
+    @import url('components/orders.less');
+
+    @import url('components/cart.less');
+  }
+}
