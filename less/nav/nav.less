@@ -1,12 +1,4 @@
-.BurnerStove-5,
-.BurnerStove-4,
-.cooktop,
-.electricOven,
-.premium {
-  display: none;
-}
-
-nav {
+.dropdown {
   font-weight: @bold;
   max-width: 1257px;
   display: flex;
@@ -14,24 +6,7 @@ nav {
   padding: 0 30px;
   background-color: #f0f0f0;
   letter-spacing: @letter-spacing;
-
-  & > a {
-    margin-right: 10px;
-    padding: 16px 17px 14px 18px;
-    &:hover {
-      background-color: @white;
-      color: @primary-color;
-    }
-  }
-
-  @import url('components/BurnerStove-5.less');
-
-  @import url('components/BurnerStove-4.less');
-
-  @import url('components/cooktop.less');
-
-  @import url('components/electricOven.less');
-
-  @import url('components/premium.less');
-
+  position: relative;
+  
+  @import url("components/dropdown-content.less");
 }
