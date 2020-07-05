@@ -2,6 +2,10 @@
   font-family: 'Intelo';
   src: url('../fonts/Intelo/InteloAlt-Regular.ttf') format("truetype");
 }
+@font-face {
+  font-family: 'Vanillate';
+  src: url('../fonts/vanillate/Vanillate.ttf') format("truetype");
+}
 body {
   font-family: 'Intelo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -746,5 +750,91 @@ footer .end-footer-section div p {
   color: #fff;
   border: 0;
   font-size: 15px;
+  font-weight: 700;
+}
+.blog-section {
+  display: flex;
+  flex-direction: row;
+  background-image: url("../../images/blog/background-blog_1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+.blog-section .blog-section-content {
+  max-width: 1280;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px 30px;
+}
+.blog-section .blog-section-content .section-title h2 {
+  color: #ed3d60;
+  font-family: "Vanillate";
+  font-size: 74px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 37px;
+}
+.blog-section .blog-section-content .cards {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.blog-section .blog-section-content .cards > a {
+  position: absolute;
+  right: 0;
+  top: -64px;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0 15px;
+  color: #575857;
+}
+.blog-section .blog-section-content .cards > a:hover {
+  text-decoration: underline;
+}
+.blog-section .blog-section-content .cards .card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  flex: 1;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.16);
+  height: 100%;
+  border-radius: 10px;
+}
+.blog-section .blog-section-content .cards .card:nth-child(2) {
+  margin-top: 80px;
+}
+.blog-section .blog-section-content .cards .card:nth-child(3) {
+  margin-top: 40px;
+}
+.blog-section .blog-section-content .cards .card img {
+  display: block;
+  height: 257px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.blog-section .blog-section-content .cards .card .card-content {
+  padding: 26px 32px 32px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.blog-section .blog-section-content .cards .card .card-content h2 {
+  color: #828485;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.blog-section .blog-section-content .cards .card .card-content p {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 45px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 94px;
+}
+.blog-section .blog-section-content .cards .card .card-content a {
+  color: #ed3d60;
+  font-size: 17px;
   font-weight: 700;
 }
