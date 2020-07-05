@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  flex: 1;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.16);
+  height: 100%;
+  border-radius: 10px;
+
+  &:nth-child(2) {
+    margin-top: 80px;
+  }
+
+  &:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  & img {
+    display: block;
+    height: 257px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  @import url("card-content.less");
+}

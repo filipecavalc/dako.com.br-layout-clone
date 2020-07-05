@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  & > a {
+    position: absolute;
+    right: 0;
+    top: -64px;
+    font-weight: @bold;
+    font-size: 17px;
+    margin: 0 15px;
+    color: @primary-font-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  @import url("components/card.less");
+}
