@@ -1,0 +1,54 @@
+& .input-firstname {
+    max-width: 219px;
+    width: 100%;
+}
+
+& .input-email {
+    max-width: 237px;
+    width: 100%;
+}
+
+& div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & label {
+    align-self: flex-start;
+    margin-left: 23px;
+  }
+
+  //TODO "Globalize" input styles
+  & input {
+    height: 50px;
+    border-radius: 150px;
+    border: 0;
+    padding: 0 27px;
+    outline: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: @primary-font-color;
+    font-weight: @normal;
+    &:focus {
+      box-shadow: 0 0 3px 1px @secondary-color;
+    }
+  }
+
+    //TODO "Globalize" button styles
+  & button {
+    width: 178px;
+    height: 46px;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(
+      265deg,
+      @primary-color 0%,
+      @secondary-color 100%
+    );
+    padding: 14px 27px 12px 29px;
+    border-radius: 200px;
+    color: @white;
+    border: 0;
+    font-size: 15px;
+    font-weight: @bold;
+  }

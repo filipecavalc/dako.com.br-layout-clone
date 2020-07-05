@@ -528,6 +528,7 @@ header .header-content .cart .cart-number {
   display: flex;
 }
 .dropdown div .dropdown-content {
+  background-color: #fff;
   color: #575eaa;
   display: none;
   position: absolute;
@@ -650,4 +651,100 @@ footer .end-footer-section div p {
   font-size: 14px;
   text-align: center;
   margin-bottom: 24px;
+}
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 17px;
+}
+.newsletter .newsletter-content {
+  background-image: url("../../images/newsletter/newsletter.png");
+  max-width: 1220px;
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.33);
+}
+.newsletter .newsletter-content .newsletter-cta {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newsletter .newsletter-content .newsletter-cta h2 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 36px;
+}
+.newsletter .newsletter-content .newsletter-cta p {
+  margin-bottom: 21px;
+}
+.newsletter .newsletter-content .form-newsletter {
+  background-color: #ed3d60;
+  max-width: 756px;
+  width: 100%;
+  height: 136px;
+  margin-bottom: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter .newsletter-content .form-newsletter form {
+  max-width: 656px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.newsletter .newsletter-content .form-newsletter form .input-firstname {
+  max-width: 219px;
+  width: 100%;
+}
+.newsletter .newsletter-content .form-newsletter form .input-email {
+  max-width: 237px;
+  width: 100%;
+}
+.newsletter .newsletter-content .form-newsletter form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter .newsletter-content .form-newsletter form div label {
+  align-self: flex-start;
+  margin-left: 23px;
+}
+.newsletter .newsletter-content .form-newsletter form div input {
+  height: 50px;
+  border-radius: 150px;
+  border: 0;
+  padding: 0 27px;
+  outline: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: #575857;
+  font-weight: 400;
+}
+.newsletter .newsletter-content .form-newsletter form div input:focus {
+  box-shadow: 0 0 3px 1px #575eaa;
+}
+.newsletter .newsletter-content .form-newsletter form div button {
+  width: 178px;
+  height: 46px;
+  margin: 0;
+  text-align: center;
+  background-image: linear-gradient(265deg, #ed3d60 0%, #575eaa 100%);
+  padding: 14px 27px 12px 29px;
+  border-radius: 200px;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
 }
