@@ -1,0 +1,23 @@
+footer {
+  background-color: @secondary-color;
+  display: flex;
+  flex-direction: column;
+  color: @white;
+  padding: 59px 3% 23px;
+  letter-spacing: @letter-spacing;
+
+  & h2 {
+    font-size: 24px;
+  }
+
+  & a {
+    color: @white;
+    font-size: 17px;
+    font-weight: @normal;
+    line-height: 32px;
+  }
+
+  @import url('components/top-footer-section.less');
+  @import url('components/middle-section-footer.less');
+  @import url('components/end-footer-section.less');
+}
