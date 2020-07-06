@@ -943,6 +943,7 @@ footer .end-footer-section div p {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
+  padding-bottom: 64px;
   width: 100%;
 }
 .product-section .product-section-content .cards .card-img {
@@ -953,7 +954,8 @@ footer .end-footer-section div p {
   padding-right: 14px;
 }
 .product-section .product-section-content .cards .card {
-  width: auto;
+  width: 100%;
+  padding: 0px 17px;
 }
 .product-section .product-section-content .cards .card img {
   max-width: 100%;
@@ -967,6 +969,29 @@ footer .end-footer-section div p {
   overflow: hidden;
   line-height: 23px;
   height: 72px;
+  color: #575857;
+  margin-top: 9px;
+  margin-bottom: 13px;
+}
+.product-section .product-section-content .cards .card a:hover {
+  text-decoration: underline;
+}
+.product-section .product-section-content .cards .card p {
+  color: #575eaa;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.product-section .product-section-content .cards .card p:nth-child(3) {
+  color: #ed3d60;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.product-section .product-section-content .cards .card p span {
+  color: #27c333;
+}
+.product-section .product-section-content .cards .card p img {
+  margin-right: 5px;
 }
 .product-section .product-section-content .cards .card button {
   display: none;

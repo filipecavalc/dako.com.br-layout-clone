@@ -49,6 +49,7 @@
       display: flex;
       flex-direction: row;
       margin-top: 25px;
+      padding-bottom: 64px;
       width: 100%;
 
       & .card-img {
@@ -61,7 +62,9 @@
       }
 
       & .card {
-        width: auto;
+        width: 100%;
+        padding: 0px 17px;
+
         & img {
           max-width: 100%;
         }
@@ -75,6 +78,33 @@
           overflow: hidden;
           line-height: 23px;
           height: 72px;
+          color: @primary-font-color;
+          margin-top: 9px;
+          margin-bottom: 13px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        & p {
+          color: @secondary-color;
+          font-size: 17px;
+          margin-bottom: 5px;
+          &:nth-child(3) {
+            color: @primary-color;
+            font-size: 24px;
+            font-weight: @bold;
+            margin-bottom: 3px;
+          }
+
+          & span {
+            color: #27c333;
+          }
+
+          & img {
+            margin-right: 5px;
+          }
         }
 
         & button {
