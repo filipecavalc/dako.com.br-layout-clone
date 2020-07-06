@@ -908,60 +908,53 @@ footer .end-footer-section div p {
   margin-left: auto;
   margin-right: auto;
 }
-.product-section .product-section-content {
+.product-section-content {
   display: flex;
   flex-direction: column;
 }
-.product-section .product-section-content .section-title {
+.section-title {
   display: flex;
   flex-direction: column;
 }
-.product-section .product-section-content .section-title h2 {
+.section-title h2 {
   font-size: 40px;
   margin: 0;
   color: #575eaa;
   font-weight: 700;
 }
-.product-section .product-section-content .section-title .section-title-description {
+.section-title .section-title-description {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.product-section .product-section-content .section-title .section-title-description a {
+.section-title .section-title-description a {
   color: #575857;
   font-size: 17px;
   font-weight: 700;
 }
-.product-section .product-section-content .section-title .section-title-description a:hover {
+.section-title .section-title-description a:hover {
   text-decoration: underline;
 }
-.product-section .product-section-content .section-title .section-title-description p {
+.section-title .section-title-description p {
   color: #828485;
   font-size: 17px;
   font-weight: 400;
 }
-.product-section .product-section-content .cards {
+.cards {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
   padding-bottom: 64px;
   width: 100%;
 }
-.product-section .product-section-content .cards .card-img {
-  padding-right: 5px;
-}
-.product-section .product-section-content .cards .card-img img {
-  max-width: 280px;
-  padding-right: 14px;
-}
-.product-section .product-section-content .cards .card {
+.card {
   width: 100%;
   padding: 0px 17px;
 }
-.product-section .product-section-content .cards .card img {
+.card img {
   max-width: 100%;
 }
-.product-section .product-section-content .cards .card a {
+.card a {
   font-size: 17px;
   font-weight: 700;
   display: -webkit-box;
@@ -974,28 +967,28 @@ footer .end-footer-section div p {
   margin-top: 9px;
   margin-bottom: 13px;
 }
-.product-section .product-section-content .cards .card a:hover {
+.card a:hover {
   text-decoration: underline;
 }
-.product-section .product-section-content .cards .card p {
+.card p {
   color: #575eaa;
   font-size: 17px;
   margin-bottom: 5px;
 }
-.product-section .product-section-content .cards .card p:nth-child(3) {
+.card p:nth-child(3) {
   color: #ed3d60;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 3px;
 }
-.product-section .product-section-content .cards .card p span {
+.card p span {
   color: #27c333;
 }
-.product-section .product-section-content .cards .card p img {
+.card p img {
   margin-right: 5px;
 }
-.product-section .product-section-content .cards .card button {
-  display: none;
+.card button {
+  visibility: hidden;
   width: 100%;
   height: 46px;
   margin: 0;
@@ -1008,8 +1001,15 @@ footer .end-footer-section div p {
   font-size: 15px;
   font-weight: 700;
 }
-.product-section .product-section-content .cards .card:hover button {
-  display: block;
+.card:hover button {
+  visibility: visible;
+}
+.card-img {
+  padding-right: 5px;
+}
+.card-img img {
+  max-width: 280px;
+  padding-right: 14px;
 }
 .banner-section {
   display: flex;
@@ -1067,4 +1067,7 @@ footer .end-footer-section div p {
 .glide .glide__bullets .glide__bullet--active {
   border: none;
   background: #ed3d60;
+}
+.glide-2 {
+  padding: 0 20px;
 }
