@@ -1040,6 +1040,9 @@ footer .end-footer-section div p {
   font-weight: 700;
   outline: none;
 }
+.glide .glide__track .glide__slides {
+  margin-top: 0;
+}
 .glide .glide__track .glide__slides .glide__slide img {
   max-width: 100%;
 }
