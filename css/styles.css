@@ -1010,3 +1010,14 @@ footer .end-footer-section div p {
 .product-section .product-section-content .cards .card:hover button {
   display: block;
 }
+.banner-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 27px;
+}
+.banner-section .banner-section-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
