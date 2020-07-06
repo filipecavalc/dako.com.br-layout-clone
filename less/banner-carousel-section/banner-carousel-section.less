@@ -1,0 +1,47 @@
+.glide {
+  & .glide__track {
+    & .glide__slides {
+      & .glide__slide {
+        & img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  & .glide__arrows {
+    & .glide__arrow {
+      background-color: @white;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    & .glide__arrow--left {
+    }
+
+    & .glide__arrow--right {
+    }
+  }
+
+  & .glide__bullets {
+      margin-bottom: 20px;
+      
+    & .glide__bullet {
+        background: #d5d5d5;
+        border: none;
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
+
+        &:hover {
+            background: @primary-color;
+            
+        }
+    }
+
+    .glide__bullet--active {
+        border: none;
+        background: @primary-color;
+    }
+  }
+}
