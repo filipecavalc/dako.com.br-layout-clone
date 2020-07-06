@@ -947,6 +947,16 @@ footer .end-footer-section div p {
   padding-bottom: 64px;
   width: 100%;
 }
+@media (max-width: 1023px) {
+  .cards .card:last-child {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .cards .card-img {
+    display: none;
+  }
+}
 .card {
   width: 100%;
   padding: 0px 17px;
@@ -1022,6 +1032,9 @@ footer .end-footer-section div p {
   margin-left: auto;
   margin-right: auto;
 }
+.banner-section .banner-section-content img {
+  width: 100%;
+}
 .back-top {
   display: none;
   width: 105px;
@@ -1070,4 +1083,15 @@ footer .end-footer-section div p {
 }
 .glide-2 {
   padding: 0 20px;
+}
+.commercial-appeals .glide__arrows .glide__arrow {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .commercial-appeals .glide__arrows .glide__arrow {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: block;
+  }
 }
