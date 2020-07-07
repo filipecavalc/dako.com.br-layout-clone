@@ -5,7 +5,7 @@ mybutton = document.getElementById("back-top");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+  if ((screen.width > 767) && (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150)) {
     mybutton.style.display = "flex";
   } else {
     mybutton.style.display = "none";

@@ -23,4 +23,27 @@
       margin-top: 33px;
     }
   }
+
+  @media (max-width: 859px) {
+    flex-wrap: wrap;
+    max-width: 85%;
+    width: 100%;
+
+    & .footer-list {
+      max-width: 40%;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    max-width: 229px;
+    justify-content: center;
+    align-self: center;
+
+    & .footer-list {
+      max-width: 40%;
+      max-width: 172px;
+    }
+  }
 }

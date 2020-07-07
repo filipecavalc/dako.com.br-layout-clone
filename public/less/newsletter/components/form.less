@@ -19,4 +19,15 @@
 
     @import url("form-content.less");
   }
+
+  @media (max-width: 767px) {
+    max-width: 375px;
+    height: 270px;
+    margin: 0;
+
+    & form {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }

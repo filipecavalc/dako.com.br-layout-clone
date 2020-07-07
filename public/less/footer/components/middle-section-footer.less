@@ -22,4 +22,25 @@
       padding-bottom: 5px;
     }
   }
+
+  @media (max-width: 1023px) {
+    flex-wrap: wrap;
+    max-width: 85%;
+    width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    max-width: 229px;
+    justify-content: center;
+    align-self: center;
+
+    & .payment-options {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      align-self: center;
+      max-width: 173px;
+    }
+  }
 }
