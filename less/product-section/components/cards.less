@@ -4,17 +4,19 @@
   margin-top: 25px;
   padding-bottom: 64px;
   width: 100%;
+
+  @import url("card-img.less");
+  @import url("card.less");
+
   & .card:last-child {
-    @media (max-width: 1023px){
+    @media (max-width: 1023px) {
       display: none;
     }
   }
 
   & .card-img {
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       display: none;
     }
   }
 }
-@import url("card.less");
-@import url("card-img.less");
