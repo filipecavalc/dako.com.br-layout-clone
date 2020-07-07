@@ -934,7 +934,7 @@ footer .end-footer-section div p {
   }
 }
 @media (max-width: 767px) {
-  .product-section .product-section-content .cards .product-card-img {
+  .product-section .product-section-content .cards .card-img {
     display: none;
   }
 }
