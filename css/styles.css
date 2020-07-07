@@ -1084,6 +1084,27 @@ footer .end-footer-section div p {
 .glide-2 {
   padding: 0 20px;
 }
+.commercial-appeals {
+  display: flex;
+  align-items: center;
+}
+.commercial-appeals .commercial-appeals-content .glide__slides .glide__slide {
+  display: flex;
+  flex-direction: row;
+}
+.commercial-appeals .commercial-appeals-content .glide__slides .glide__slide img {
+  margin-right: 25px;
+}
+.commercial-appeals .commercial-appeals-content .glide__slides .glide__slide h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.commercial-appeals .commercial-appeals-content .glide__slides .glide__slide p {
+  margin: 0;
+  color: #ed3d60;
+  font-size: 17px;
+}
 .commercial-appeals .glide__arrows .glide__arrow {
   display: none;
 }
@@ -1094,4 +1115,16 @@ footer .end-footer-section div p {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     display: block;
   }
+}
+.commercial-appeals-section {
+  display: flex;
+  justify-content: space-between;
+  height: 134px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  top: -33px;
+  padding: 0 40px;
+  margin: 0 30px;
 }

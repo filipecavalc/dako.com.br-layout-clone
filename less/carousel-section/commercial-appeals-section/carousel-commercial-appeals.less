@@ -1,0 +1,44 @@
+.commercial-appeals {
+  display: flex;
+  align-items: center;
+  & .commercial-appeals-content {
+    & .glide__slides {
+      & .glide__slide {
+        display: flex;
+        flex-direction: row;
+        & div {
+        }
+
+        & img {
+          margin-right: 25px;
+        }
+
+        & h2 {
+          margin: 0;
+          font-size: 24px;
+          font-weight: @bold;
+        }
+
+        & p {
+          margin: 0;
+          color: @primary-color;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  @import url("glide-arrows.less");
+}
+
+.commercial-appeals-section {
+  display: flex;
+  justify-content: space-between;
+  height: 134px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  top: -33px;
+  padding: 0 40px;
+  margin: 0 30px;
+}
