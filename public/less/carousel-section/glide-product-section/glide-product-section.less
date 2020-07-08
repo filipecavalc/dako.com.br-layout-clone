@@ -1,0 +1,28 @@
+.glide-product-section {
+
+    & .glide__bullets {
+        display: none;
+        margin-bottom: -50px;
+    
+        & .glide__bullet {
+          background: #d5d5d5;
+          border: none;
+          width: 11px;
+          height: 11px;
+          margin-right: 15px;
+    
+          &:hover {
+            background: @primary-color;
+          }
+        }
+    
+        .glide__bullet--active {
+          border: none;
+          background: @primary-color;
+        }
+
+        @media (max-width: 767px) {
+            display: block;
+        }
+      }
+}

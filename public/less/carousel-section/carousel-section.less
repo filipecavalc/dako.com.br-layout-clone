@@ -1,7 +1,7 @@
 .glide {
   & .glide__track {
     & .glide__slides {
-        margin-top: 0;
+      margin-top: 0;
       & .glide__slide {
         & img {
           max-width: 100%;
@@ -19,30 +19,31 @@
   }
 
   & .glide__bullets {
-      margin-bottom: 20px;
-      
-    & .glide__bullet {
-        background: #d5d5d5;
-        border: none;
-        width: 11px;
-        height: 11px;
-        margin-right: 5px;
+    margin-bottom: 20px;
 
-        &:hover {
-            background: @primary-color;
-            
-        }
+    & .glide__bullet {
+      background: #d5d5d5;
+      border: none;
+      width: 11px;
+      height: 11px;
+      margin-right: 10px;
+
+      &:hover {
+        background: @primary-color;
+      }
     }
 
     .glide__bullet--active {
-        border: none;
-        background: @primary-color;
+      border: none;
+      background: @primary-color;
     }
   }
 }
 
-@import url('carousel-title.less');
-@import url('commercial-appeals-section/carousel-commercial-appeals.less');
+@import url("glide-product-section/carousel-title.less");
+@import url("glide-product-section/glide-product-section.less");
+@import url("commercial-appeals-section/carousel-commercial-appeals.less");
+@import url("glide-blog-section/glide-blog-section.less");
 
 @media (max-width: 767px) {
   .glide-banners-desktop {

@@ -2,7 +2,7 @@ new Glide(".glide", {
   autoplay: 4000,
 }).mount();
 
-new Glide(".glide-2", {
+new Glide(".glide-product-section", {
   bound: true,
   perView: 4,
   breakpoints: {
@@ -32,4 +32,13 @@ new Glide(".commercial-appeals", {
 
 new Glide(".glide-banners-mobile", {
   autoplay: 4000,
+}).mount();
+
+
+new Glide(".glide-blog", {
+  bound: true,
+  perView: 2,
+  breakpoints: {
+    767: { perView: 1 }
+  },
 }).mount();
