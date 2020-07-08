@@ -1151,6 +1151,8 @@ footer .end-footer-section div p {
 }
 .commercial-appeals .commercial-appeals-content .glide__slides .glide__slide img {
   margin-right: 25px;
+  width: 71px;
+  height: 71px;
 }
 .commercial-appeals .commercial-appeals-content .glide__slides .glide__slide h2 {
   margin: 0;
@@ -1171,6 +1173,12 @@ footer .end-footer-section div p {
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     display: block;
+  }
+  .commercial-appeals .glide__arrows .glide__arrow--right {
+    margin-right: -70px;
+  }
+  .commercial-appeals .glide__arrows .glide__arrow--left {
+    margin-left: -70px;
   }
 }
 .commercial-appeals-section {
