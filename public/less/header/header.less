@@ -5,6 +5,11 @@ header {
   font-size: 17px;
   font-weight: @bold;
   letter-spacing: @letter-spacing;
+  position: static;
+
+  @import url("components/logo.less");
+
+  @import url("components/cart.less");
 
   & .header-content {
     width: 100%;
@@ -15,9 +20,7 @@ header {
     justify-content: space-between;
     color: @white;
 
-    @import url('components/logo.less');
-
-    @import url('components/search.less');
+    @import url("components/search.less");
 
     & a {
       color: @white;
@@ -26,10 +29,40 @@ header {
       }
     }
 
-    @import url('components/login-register.less');
+    @import url("components/login-register.less");
 
-    @import url('components/orders.less');
+    @import url("components/orders.less");
 
-    @import url('components/cart.less');
+    @media (max-width: 859px) {
+      display: none;
+      position: relative;
+    }
+  }
+
+  .header-content-mobile {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    align-self: center;
+
+    & button {
+      color: @white;
+      border: 0;
+      background-color: @primary-color;
+      font-size: 32px;
+    }
+
+    & .logo {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+    @media (max-width: 859px) {
+      display: flex;
+    }
   }
 }

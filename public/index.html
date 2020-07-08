@@ -25,28 +25,103 @@
             <div class="login-register">
                 <span></span>
                 <p>
-                    <a href="">Entre </a>
+                    <a href="/">Entre </a>
                     ou
-                    <a href=""> cadastre-se</a>
+                    <a href="/"> cadastre-se</a>
                 </p>
             </div>
             <div class="orders">
                 <span></span>
                 <p>
-                    <a href="">
+                    <a href="/">
                         <span>Meus </span>
                         <span>pedidos</span>
                     </a>
                 </p>
             </div>
             <div>
-                <a class="cart" href="">
+                <a class="cart" href="/">
                     <span class="cart-icon"></span>
                     <span class="cart-number">0</span>
                 </a>
             </div>
         </div>
+        <div class="header-content-mobile">
+            <button id="menu-toggle" onclick="openNav()">&#9776;</button>
+            <a class="logo" href="/">
+                <img src="images/header/logo-dako.png" alt="" />
+            </a>
+            <a class="cart" href="/">
+                <span class="cart-icon"></span>
+                <span class="cart-number">0</span>
+            </a>
+        </div>
     </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a id="close-button" href="javascript:void(0)" class="closebtn">&times;</a>
+        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'menu-intern-mobile')">MENU</button>
+            <button class="tablinks" onclick="openCity(event, 'myaccount-mobile')">MINHA CONTA</button>
+        </div>
+
+        <div id="menu-intern-mobile" class="tabcontent">
+            <button class="dropdown-btn">FOGÃO 5 BOCAS <img src="images/menu/menu-arrow.svg" alt="">
+            </button>
+            <div class="dropdown-container">
+                <a href="#">FOGÃO 5 BOCAS PISO</a>
+                <a href="#">FOGÃO 5 BOCAS EMBUTIR</a>
+                <a href="#">FOGÃO 5 BOCAS MESA DE VIDRO</a>
+                <a href="#">FOGÃO 5 BOCAS MESA DE INOX</a>
+                <a href="#">VER TUDO EM FOGÃO 5 BOCAS</a>
+            </div>
+            <button class="dropdown-btn">FOGÃO 4 BOCAS <img src="images/menu/menu-arrow.svg" alt="">
+            </button>
+            <div class="dropdown-container">
+                <a href="#">FOGÃO 4 BOCAS PISO</a>
+                <a href="#">FOGÃO 4 BOCAS EMBUTIR</a>
+                <a href="#">FOGÃO 4 BOCAS MESA DE VIDRO</a>
+                <a href="#">FOGÃO 4 BOCAS MESA DE INOX</a>
+                <a href="#">VER TUDO EM FOGÃO 4 BOCAS</a>
+            </div>
+            <button class="dropdown-btn">COOKTOP <img src="images/menu/menu-arrow.svg" alt="">
+            </button>
+            <div class="dropdown-container">
+                <a href="#">COOKTOP 5 BOCAS</a>
+                <a href="#">COOKTOP 4 BOCAS</a>
+                <a href="#">COOKTOP PRETO</a>
+                <a href="#">COOKTOP BRANCO</a>
+                <a href="#">VER TUDO EM COOKTOP</a>
+            </div>
+            <button class="dropdown-btn">FORNO ELÉTRICO <img src="images/menu/menu-arrow.svg" alt="">
+            </button>
+            <div class="dropdown-container">
+                <a href="#">FORNO SUPREME TITANIUM</a>
+                <a href="#">FORNO SUPREME BRANCO</a>
+                <a href="#">FORNO SUPREME PRETO</a>
+                <a href="#">VER TUDO EM FORNO</a>
+            </div>
+            <button class="dropdown-btn">PREMIUM <img src="images/menu/menu-arrow.svg" alt="">
+            </button>
+            <div class="dropdown-container">
+                <a href="#">FOGÃO DAKOLORS BRANCO</a>
+                <a href="#">FOGÃO DAKOLORS VERMELHO</a>
+                <a href="#">FOGÃO DAKOLORS AZUL</a>
+                <a href="#">FOGÃO DAKOLORS AMARELO</a>
+                <a href="#">FOGÕES DAKO TURBO GLASS</a>
+                <a href="#">VER TUDO EM PREMIUM</a>
+            </div>
+            <button class="dropdown-btn">PREMIUM
+            </button>
+        </div>
+        <div id="myaccount-mobile" class="tabcontent">
+            <a href="#">Entre</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#">Meus pedidos</a>
+        </div>
+    </div>
+
+
     <nav class="dropdown">
         <div>
             <span>FOGÃO 5 BOCAS</span>
@@ -613,7 +688,7 @@
 
     <script src="js/back-top.js"></script>
     <script src="js/carousel.js"></script>
-
+    <script src="js/menu-mobile.js"></script>
 </body>
 
 </html>
