@@ -29,3 +29,7 @@ new Glide(".commercial-appeals", {
     },
   },
 }).mount();
+
+new Glide(".glide-banners-mobile", {
+  autoplay: 4000,
+}).mount();
