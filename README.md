@@ -2,7 +2,7 @@
 Projeto com foco em copiar a pagina inicial do site dako.com.br
 
 ## Como Rodar o Projeto
-Para rodar o projeto localmente basta abrir o arquivo index.html que se encontra na pasta public.
+Para rodar o projeto localmente basta abrir o arquivo index.html que se encontra na pasta public em um navegador.
 
 ## Tecnologias utilizadas foram:
 * HTML
