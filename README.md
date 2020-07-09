@@ -1,2 +1,2 @@
-# printset.com.br layout clone
- HTML, LESS e JS
+# dako.com.br layout clone
+Projeto com foco em copiar a pagina principal do site 
