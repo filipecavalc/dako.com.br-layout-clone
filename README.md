@@ -17,6 +17,61 @@ Live preview do projeto nesse link: https://dako-homepage-clone.web.app/
 Projeto está rodando em um servidor no firebase.
 
 ## Arquitetura dos arquivos
+```bash
+\public
+├── css
+├── fonts
+|  ├── Intelo
+|  └── vanillate
+├── images
+|  ├── banners
+|  ├── blog
+|  |  └── cards
+|  ├── carousel
+|  |  ├── banners
+|  |  |  └── mobile
+|  |  ├── commercial-appeals
+|  |  └── products
+|  ├── footer
+|  |  ├── payment-methods
+|  |  ├── social
+|  |  └── stamps
+|  ├── header
+|  ├── info-section
+|  ├── menu
+|  ├── newsletter
+|  └── products
+|     ├── banners
+|     ├── cooktop
+|     ├── icons
+|     ├── oven
+|     └── stove
+├── js
+|  └── libs
+|     └── glide-3.4.1
+|        └── css
+└── less
+   ├── banner-section
+   ├── blog
+   |  └── components
+   ├── carousel-section
+   |  ├── commercial-appeals-section
+   |  ├── glide-blog-section
+   |  └── glide-product-section
+   ├── footer
+   |  └── components
+   ├── header
+   |  └── components
+   ├── info-section
+   |  └── components
+   ├── nav
+   |  └── components
+   ├── newsletter
+   |  └── components
+   └── product-section
+      └── components
+```
+
 Projeto possui um css unico que foi compilado através de um arquivo usado como router dos arquivos less. Arquivo styles.less é o router que é compilado no arquivo styles.css dentro da pasta css.
 
 Arquivos less foram organizados da seguinte forma:
@@ -25,3 +80,4 @@ Arquivos less foram organizados da seguinte forma:
 * Foi subdividido os arquivos em outros dentro das pastas componentes de acordo com a responsabilidade e contexto do uso de cada um;
 
 Ainda é possivel trabalhar um pouco mais em melhorias da organização do código, alguns tamanhos de fonte que se repetiram com frequencia poderiam ser transformadas em variaveis por exemplo.
+
