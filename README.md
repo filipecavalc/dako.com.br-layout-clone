@@ -6,7 +6,6 @@ Para rodar o projeto localmente basta abrir o arquivo index.html que se encontra
 
 ## Tecnologias utilizadas foram:
 * HTML
-* CSS
 * LESS
 * Javascript Puro
 
