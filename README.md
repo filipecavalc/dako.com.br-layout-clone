@@ -81,3 +81,8 @@ Arquivos less foram organizados da seguinte forma:
 
 Ainda é possivel trabalhar um pouco mais em melhorias da organização do código, alguns tamanhos de fonte que se repetiram com frequencia poderiam ser transformadas em variaveis por exemplo.
 
+As imagens do projeto foram organizaads em pastas de acordo com o contexto do uso delas.
+
+O código javascript foi separado em 3 scripts principais, o código do botão para rolagem ao top do site, os códigos de configuração dos carouseis, e o código javascript feito para o menu mobile do site.
+
+As fontes forão separadas em uma pasta exclusiva de acordo com o nome de cada fonte utilizada no site.
