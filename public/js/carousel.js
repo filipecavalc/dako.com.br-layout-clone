@@ -41,4 +41,8 @@ new Glide(".glide-blog", {
   breakpoints: {
     767: { perView: 1 }
   },
+  peek: {
+    before: 45,
+    after: 10
+  }
 }).mount();

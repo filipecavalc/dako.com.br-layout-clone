@@ -916,6 +916,7 @@ footer .end-footer-section div p {
   flex: 1;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.16);
   height: 100%;
+  width: 80%;
   border-radius: 10px;
 }
 .blog-section .blog-section-content .cards .card:nth-child(2) {
@@ -1168,7 +1169,7 @@ footer .end-footer-section div p {
 }
 @media (max-width: 767px) {
   .glide-product-section .glide__bullets {
-    display: block;
+    display: flex;
   }
 }
 .commercial-appeals {
@@ -1228,16 +1229,21 @@ footer .end-footer-section div p {
   margin: 0 30px;
 }
 .glide-blog {
-  padding: 0 45px;
+  display: flex;
   margin-bottom: 80px;
+}
+.glide-blog .glide__bullets {
+  margin-bottom: -80px;
+}
+@media (max-width: 767px) {
+  .glide-blog {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 1023px) {
   .glide-blog {
     display: block;
   }
-}
-.glide-blog .glide__bullets {
-  margin-bottom: -80px;
 }
 @media (max-width: 767px) {
   .glide-banners-desktop {
@@ -1308,6 +1314,9 @@ footer .end-footer-section div p {
 @media (max-width: 767px) {
   .product-card button {
     visibility: visible;
+    height: 41px;
+    font-size: 13px;
+    padding: 7px 13px 6px 14px;
   }
 }
 .product-card:hover button {
