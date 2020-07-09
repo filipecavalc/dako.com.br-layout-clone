@@ -1314,7 +1314,6 @@ footer .end-footer-section div p {
   visibility: visible;
 }
 .product-section-title {
-  display: flex;
   margin-left: 20px;
 }
 .product-section-title h2 {
@@ -1435,4 +1434,49 @@ footer .end-footer-section div p {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.search-mobile {
+  display: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.search-mobile input {
+  height: 40px;
+  border: 0;
+  padding: 0 27px;
+  outline: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: #575857;
+  font-weight: 400;
+  background-color: #f0f0f0;
+  font-size: 17px;
+}
+.search-mobile input:focus {
+  box-shadow: 0 0 3px 1px #575eaa;
+}
+.search-mobile button {
+  width: 33px;
+  height: 33px;
+  background-image: url("../images/header/search.svg");
+  background-position: center;
+  background-size: contain;
+  display: block;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 25px;
+  margin-top: -20px;
+  transform: translate(0, -50%);
+  border: 0;
+}
+.search-mobile button:disabled {
+  opacity: 0.5;
+}
+@media (max-width: 859px) {
+  .search-mobile {
+    display: block;
+  }
 }
